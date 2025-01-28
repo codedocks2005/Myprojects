@@ -1,0 +1,89 @@
+body{
+    color: #0FFCBE;
+    background-color: #106EBE;
+    
+}
+
+.img{
+    margin: auto;
+
+}
+
+
+.input-box{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: aquamarine;
+    height:500px;
+    width:500px;
+    margin: auto;
+    
+    padding: auto;
+    cursor: pointer;
+    
+}
+.input-box input[type="text"] {
+    background-color: #106EBE;
+    color: whitesmoke;
+    height: 30px;
+    width:400px;
+    margin-top: 50px;
+}
+
+.input-box input[type="button"] {
+    width: 50px;
+    height: 37px;
+}
+
+.input-box input[type="button"]:hover {
+    background-color: aqua;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#todo-list {
+    height: auto; /* Adjusts height based on content */
+    max-height: 200px; /* Limits height for better UX */
+    width: 350px;
+    overflow-y: auto; /* Adds scroll if tasks exceed max height */
+    background-color: white; /* To make it visually distinct */
+    padding: auto;
+    margin: auto;
+    margin-top: 40px;;
+justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border: 1px solid #106EBE;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #106EBE;
+    margin-right: 90px;
+ 
+}
+#todo-list li button {
+    justify-content: end;
+    text-align: end;
+    align-items: end;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+   
+
+}
+
+#todo-list li button:hover {
+    background-color: darkred;
+}
+
